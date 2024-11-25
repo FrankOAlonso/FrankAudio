@@ -1,0 +1,30 @@
+LazarusResources.Add('TFmSetup','FORMDATA',[
+  'TPF0'#8'TFmSetup'#7'FmSetup'#4'Left'#3'M'#1#6'Height'#2'm'#3'Top'#3#221#0#5
+  +'Width'#3#228#0#18'HorzScrollBar.Page'#3#227#0#18'VertScrollBar.Page'#2'l'#13
+  +'ActiveControl'#7#9'CBDrivers'#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#5
+  +'Setup'#11'Font.Height'#2#245#9'Font.Name'#6#7'Verdana'#10'Font.Style'#11#6
+  +'fsBold'#0#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#0#6'T'
+  +'Label'#8'LbPreset'#4'Left'#2#4#6'Height'#2#21#3'Top'#2#2#5'Width'#2'Q'#8'Au'
+  +'toSize'#8#7'Caption'#6#12'ASIO Driver:'#5'Color'#7#6'clNone'#6'Layout'#7#8
+  +'tlCenter'#11'ParentColor'#8#0#0#6'TLabel'#6'Label1'#4'Left'#2#4#6'Height'#2
+  +#21#3'Top'#2#29#5'Width'#2'2'#8'AutoSize'#8#7'Caption'#6#7'Output:'#5'Color'
+  +#7#6'clNone'#6'Layout'#7#8'tlCenter'#11'ParentColor'#8#0#0#6'TLabel'#6'Label'
+  +'2'#4'Left'#2#4#6'Height'#2#14#3'Top'#2'X'#5'Width'#2'd'#7'Caption'#6#19'Pla'
+  +'yback Samplerate'#5'Color'#7#6'clNone'#6'Layout'#7#8'tlCenter'#11'ParentCol'
+  +'or'#8#0#0#9'TComboBox'#9'CBDrivers'#4'Left'#2'X'#6'Height'#2#21#3'Top'#2#2#5
+  +'Width'#3#136#0#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#16'AutoComplet'
+  +'eText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHeig'
+  +'ht'#2#13#9'MaxLength'#2#0#8'OnChange'#7#15'CBDriversChange'#5'Style'#7#14'c'
+  +'sDropDownList'#8'TabOrder'#2#0#0#0#9'TComboBox'#8'CBOutput'#4'Left'#2'@'#6
+  +'Height'#2#21#3'Top'#2#29#5'Width'#3#160#0#7'Anchors'#11#5'akTop'#6'akLeft'#7
+  +'akRight'#0#16'AutoCompleteText'#11#22'cbactEndOfLineComplete'#20'cbactSearc'
+  +'hAscending'#0#10'ItemHeight'#2#13#9'MaxLength'#2#0#8'OnChange'#7#14'CBOutpu'
+  +'tChange'#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#1#0#0#7'TButton'#14'Bt'
+  +'ControlPanel'#4'Left'#2#4#6'Height'#2#25#3'Top'#2'7'#5'Width'#3#220#0#7'Anc'
+  +'hors'#11#5'akTop'#6'akLeft'#7'akRight'#0#25'BorderSpacing.InnerBorder'#2#4#7
+  +'Caption'#6#13'Control Panel'#7'OnClick'#7#19'BtControlPanelClick'#8'TabOrde'
+  +'r'#2#2#0#0#9'TSpinEdit'#12'SESampleRate'#4'Left'#3#148#0#6'Height'#2#22#3'T'
+  +'op'#2'U'#5'Width'#2'L'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'MaxV'
+  +'alue'#2#0#8'OnChange'#7#18'SESampleRateChange'#8'TabOrder'#2#3#5'Value'#4'D'
+  +#172#0#0#0#0#0
+]);

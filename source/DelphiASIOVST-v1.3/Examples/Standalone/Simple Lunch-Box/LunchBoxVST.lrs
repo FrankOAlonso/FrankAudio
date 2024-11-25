@@ -1,0 +1,29 @@
+LazarusResources.Add('TFmVST','FORMDATA',[
+  'TPF0'#6'TFmVST'#5'FmVST'#4'Left'#3'W'#1#6'Height'#3#128#0#3'Top'#3'd'#1#5'Wi'
+  +'dth'#3'+'#1#18'HorzScrollBar.Page'#3'*'#1#18'VertScrollBar.Page'#2''#13'Ac'
+  +'tiveControl'#7#11'EdOutputVST'#7'Caption'#6#9'VST Setup'#11'Font.Height'#2
+  +#245#9'Font.Name'#6#6'Tahoma'#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#8#6'Heig'
+  +'ht'#2'6'#3'Top'#2'C'#5'Width'#3#28#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akR'
+  +'ight'#0#7'Caption'#6#12' Output VST '#8'TabOrder'#2#0#0#6'TLabel'#6'Label2'
+  +#4'Left'#2#11#6'Height'#2#14#3'Top'#2#25#5'Width'#2#23#7'Caption'#6#4'VST:'#5
+  +'Color'#7#6'clNone'#11'ParentColor'#8#0#0#5'TEdit'#11'EdOutputVST'#4'Left'#2
+  +''''#6'Height'#2#21#3'Top'#2#22#5'Width'#3#185#0#8'OnChange'#7#17'EdOutputVS'
+  +'TChange'#8'TabOrder'#2#0#0#0#7'TButton'#11'BtOutputVST'#4'Left'#3#204#0#6'H'
+  +'eight'#2#18#3'Top'#2#24#5'Width'#2#18#25'BorderSpacing.InnerBorder'#2#4#7'C'
+  +'aption'#6#3'...'#7'OnClick'#7#16'BtOutputVSTClick'#8'TabOrder'#2#1#0#0#7'TB'
+  +'utton'#14'BtOutputEditor'#4'Left'#3#230#0#6'Height'#2#21#3'Top'#2#22#5'Widt'
+  +'h'#2'+'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#6'Editor'#7'Enabled'
+  +#8#7'OnClick'#7#19'BtOutputEditorClick'#8'TabOrder'#2#2#0#0#0#9'TGroupBox'#9
+  +'GroupBox2'#4'Left'#2#8#6'Height'#2'9'#3'Top'#2#4#5'Width'#3#28#1#7'Anchors'
+  +#11#5'akTop'#6'akLeft'#7'akRight'#0#7'Caption'#6#17' Realtime FX VST '#8'Tab'
+  +'Order'#2#1#0#6'TLabel'#6'Label1'#4'Left'#2#11#6'Height'#2#14#3'Top'#2#25#5
+  +'Width'#2#23#7'Caption'#6#4'VST:'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0
+  +#5'TEdit'#13'EdRealtimeVST'#4'Left'#2''''#6'Height'#2#21#3'Top'#2#22#5'Width'
+  +#3#185#0#8'OnChange'#7#19'EdRealtimeVSTChange'#8'TabOrder'#2#0#0#0#7'TButton'
+  +#13'BtRealtimeVST'#4'Left'#3#204#0#6'Height'#2#18#3'Top'#2#24#5'Width'#2#18
+  +#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'...'#7'OnClick'#7#18'BtRea'
+  +'ltimeVSTClick'#8'TabOrder'#2#1#0#0#7'TButton'#16'BtRealtimeEditor'#4'Left'#3
+  +#230#0#6'Height'#2#21#3'Top'#2#22#5'Width'#2'+'#25'BorderSpacing.InnerBorder'
+  +#2#4#7'Caption'#6#6'Editor'#7'Enabled'#8#7'OnClick'#7#21'BtRealtimeEditorCli'
+  +'ck'#8'TabOrder'#2#2#0#0#0#0
+]);

@@ -1,0 +1,52 @@
+8
+
+dir
+500
+https://delphiasiovst.svn.sourceforge.net/svnroot/delphiasiovst/Examples/Plugins/Dynamics
+https://delphiasiovst.svn.sourceforge.net/svnroot/delphiasiovst
+
+
+
+2007-11-15T01:27:47.489400Z
+477
+the-real-myco
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6f4abc13-111f-0410-bce7-ee3962e0277f
+
+Simple Limiter
+dir
+
+Soft Knee Feedback Compressor
+dir
+
+Soft Knee Limiter
+dir
+
+Enhanced Gate
+dir
+
+Simple Compressor
+dir
+
+Simple Gate
+dir
+
+Simple Feedback Compressor
+dir
+
+Multiband Compressor
+dir
+

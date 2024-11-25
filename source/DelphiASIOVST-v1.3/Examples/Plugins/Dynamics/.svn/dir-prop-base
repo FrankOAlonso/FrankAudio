@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 137
+*.~pas
+*.~dpk
+*.~dsk
+*.~ddp
+*.~dfm
+*.dcu
+*.cfg
+*.dof
+*.ddp
+*.dsk
+*.dll
+*.exe
+*.bdsproj
+*.local
+*.drc
+*.tlb
+*.identcache
+*.bdsgroup
+*.res
+
+END

@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 79
+*.cfg
+*.dll
+*.dof
+*.~dpr
+*.dcu
+*.ddp
+*.~pas
+*.~dfm
+*.dproj
+*.identcache
+*.~ddp
+
+END

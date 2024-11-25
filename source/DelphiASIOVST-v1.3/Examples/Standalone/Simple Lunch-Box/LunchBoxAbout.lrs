@@ -1,0 +1,15 @@
+LazarusResources.Add('TFmAbout','FORMDATA',[
+  'TPF0'#8'TFmAbout'#7'FmAbout'#4'Left'#3#128#1#6'Height'#2'c'#3'Top'#3'u'#1#5
+  +'Width'#3'='#1#18'HorzScrollBar.Page'#3'<'#1#18'VertScrollBar.Page'#2'b'#11
+  +'BorderStyle'#7#6'bsNone'#7'Caption'#6#5'About'#5'Color'#7#9'clMedGray'#11'F'
+  +'ont.Height'#2#245#9'Font.Name'#6#6'Tahoma'#7'OnClick'#7#9'FormClick'#8'Posi'
+  +'tion'#7#14'poScreenCenter'#0#6'TLabel'#6'Label1'#4'Left'#2#24#6'Height'#2'!'
+  +#3'Top'#2#17#5'Width'#3#3#1#7'Caption'#6#15'Simple Lunchbox'#5'Color'#7#6'cl'
+  +'None'#11'Font.Height'#2#229#9'Font.Name'#6#7'Verdana'#10'Font.Style'#11#6'f'
+  +'sBold'#0#11'ParentColor'#8#7'OnClick'#7#9'FormClick'#0#0#6'TLabel'#2'Lb'#4
+  +'Left'#2'X'#6'Height'#2#14#3'Top'#2'7'#5'Width'#3#142#0#7'Caption'#6#29'orig'
+  +'inally created by BramBos'#5'Color'#7#6'clNone'#11'ParentColor'#8#7'OnClick'
+  +#7#9'FormClick'#0#0#6'TLabel'#6'Label2'#4'Left'#2'V'#6'Height'#2#14#3'Top'#2
+  +'E'#5'Width'#3#148#0#7'Caption'#6#29'complete rewritten as example'#5'Color'
+  +#7#6'clNone'#11'ParentColor'#8#7'OnClick'#7#9'FormClick'#0#0#0
+]);

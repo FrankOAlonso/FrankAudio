@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{A09DB763-BC41-455A-803C-09B2F98535A4}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="AVDCommon_D10.bpl">AVDCommon_D10.bdsproj</Projects>
+      <Projects Name="AVDDSP_D10.bpl">AVDDSP_D10.bdsproj</Projects>
+      <Projects Name="VSTPlugin_D10.bpl">VSTPlugin_D10.bdsproj</Projects>
+      <Projects Name="HostVST_D10.bpl">HostVST_D10.bdsproj</Projects>
+      <Projects Name="HostASIO_D10.bpl">HostASIO_D10.bdsproj</Projects>
+      <Projects Name="DVSTGui_D10.bpl">DVSTGui_D10.bdsproj</Projects>
+      <Projects Name="Targets">AVDCommon_D10.bpl AVDDSP_D10.bpl VSTPlugin_D10.bpl HostVST_D10.bpl HostASIO_D10.bpl DVSTGui_D10.bpl</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9145A0C2-6AEB-4A1A-B06C-ADFE4BFB7758}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FrankAudio.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Utests\FrankAudioTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EchoSrv.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FrankAudio">
+        <MSBuild Projects="FrankAudio.dproj"/>
+    </Target>
+    <Target Name="FrankAudio:Clean">
+        <MSBuild Projects="FrankAudio.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FrankAudio:Make">
+        <MSBuild Projects="FrankAudio.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FrankAudioTest">
+        <MSBuild Projects="Utests\FrankAudioTest.dproj"/>
+    </Target>
+    <Target Name="FrankAudioTest:Clean">
+        <MSBuild Projects="Utests\FrankAudioTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FrankAudioTest:Make">
+        <MSBuild Projects="Utests\FrankAudioTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EchoSrv">
+        <MSBuild Projects="EchoSrv.dproj"/>
+    </Target>
+    <Target Name="EchoSrv:Clean">
+        <MSBuild Projects="EchoSrv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EchoSrv:Make">
+        <MSBuild Projects="EchoSrv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FrankAudio;FrankAudioTest;EchoSrv"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FrankAudio:Clean;FrankAudioTest:Clean;EchoSrv:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FrankAudio:Make;FrankAudioTest:Make;EchoSrv:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

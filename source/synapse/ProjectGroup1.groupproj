@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{978FE2F0-134C-4612-B0D6-A06D9A520E6A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="serverproj.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\delphi10\clientproj.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="serverproj">
+        <MSBuild Projects="serverproj.dproj"/>
+    </Target>
+    <Target Name="serverproj:Clean">
+        <MSBuild Projects="serverproj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="serverproj:Make">
+        <MSBuild Projects="serverproj.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="clientproj">
+        <MSBuild Projects="..\..\delphi10\clientproj.dproj"/>
+    </Target>
+    <Target Name="clientproj:Clean">
+        <MSBuild Projects="..\..\delphi10\clientproj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="clientproj:Make">
+        <MSBuild Projects="..\..\delphi10\clientproj.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="serverproj;clientproj"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="serverproj:Clean;clientproj:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="serverproj:Make;clientproj:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

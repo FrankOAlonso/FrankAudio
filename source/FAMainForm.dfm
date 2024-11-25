@@ -145,9 +145,9 @@ object FAmainF: TFAmainF
   object Label2: TLabel
     Left = 367
     Top = 103
-    Width = 82
+    Width = 90
     Height = 22
-    Caption = 'Protocol'
+    Caption = 'Protocolo'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -18

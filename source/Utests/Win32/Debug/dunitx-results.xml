@@ -1,32 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="C:\delprogs\Delphi11\01FrankAudio\source\Utests\Win32\Debug\FrankAudioTest.exe" total="28" errors="0" failures="1" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2024-11-25" time="63.915">
+<test-results name="C:\delprogs\01FrankAudio\FrankAudio\source\Utests\Win32\Debug\FrankAudioTest.exe" total="28" errors="0" failures="2" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2024-11-27" time="42.693">
   <culture-info current-culture="en" current-uiculture="en" />
-  <test-suite type="Assembly" name="FrankAudioTest.exe" executed="true" result="Failure" success="False" time="63.915" asserts="0">
+  <test-suite type="Assembly" name="FrankAudioTest.exe" executed="true" result="Failure" success="False" time="42.693" asserts="0">
     <results>
-        <test-suite type="Namespace" name="TestConSpeed" executed="true" result="Success" success="True" time="63.915" asserts="0" >
+        <test-suite type="Namespace" name="MemBufTestU" executed="true" result="Success" success="True" time="0.007" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="TesconSpeed" executed="True" result="Success" success="True" time="63.915" >
-                <results>
-                  <test-case name="Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="Test2.TestA" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="Test2.TestB" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                </results>
-              </test-suite>
-          </results>
-        </test-suite>
-        <test-suite type="Namespace" name="TcodecTestU" executed="true" result="Success" success="True" time="63.902" asserts="0" >
-          <results>
-              <test-suite type="Fixture" name="TCodecTest" executed="True" result="Success" success="True" time="63.902" >
-                <results>
-                  <test-case name="Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="Test2.TestB" executed="True" result="Success" success="True" time="0.032" asserts="0" />
-                </results>
-              </test-suite>
-          </results>
-        </test-suite>
-        <test-suite type="Namespace" name="MemBufTestU" executed="true" result="Success" success="True" time="63.857" asserts="0" >
-          <results>
-              <test-suite type="Fixture" name="TMemBufTest" executed="True" result="Success" success="True" time="63.857" >
+              <test-suite type="Fixture" name="TMemBufTest" executed="True" result="Success" success="True" time="0.007" >
                 <results>
                   <test-case name="Test1.Test 4,3,72" executed="True" result="Success" success="True" time="0.000" asserts="0" />
                   <test-case name="Test1.Test 3,4,72" executed="True" result="Success" success="True" time="0.000" asserts="0" />
@@ -40,12 +19,31 @@
               </test-suite>
           </results>
         </test-suite>
-        <test-suite type="Namespace" name="TworkThreadTestU" executed="true" result="Failure" success="False" time="63.794" asserts="0" >
+        <test-suite type="Namespace" name="TcodecTestU" executed="true" result="Success" success="True" time="0.004" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="TWorkThreadTest" executed="True" result="Failure" success="False" time="63.794" >
+              <test-suite type="Fixture" name="TCodecTest" executed="True" result="Success" success="True" time="0.004" >
                 <results>
-                  <test-case name="TestEchoserver" executed="True" result="Success" success="True" time="0.023" asserts="0" />
-                  <test-case name="TestConectionRemoteReal.TestEchoOutRemoteReal" executed="True" result="Failure" success="False" time="12.323" asserts="0" >
+                  <test-case name="Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Test2.TestB" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+        <test-suite type="Namespace" name="TconmanagertestU" executed="true" result="Failure" success="False" time="29.891" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TConManagerTest" executed="True" result="Failure" success="False" time="29.891" >
+                <results>
+                  <test-case name="TestConection0.TestConection0" executed="True" result="Success" success="True" time="2.020" asserts="0" />
+                  <test-case name="TestConection0.TestConection0" executed="True" result="Success" success="True" time="2.010" asserts="0" />
+                  <test-case name="Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Test2.Test0" executed="True" result="Success" success="True" time="1.016" asserts="0" />
+                  <test-case name="Test2.Test192" executed="True" result="Success" success="True" time="1.019" asserts="0" />
+                  <test-case name="Test2.Test127" executed="True" result="Success" success="True" time="1.018" asserts="0" />
+                  <test-case name="TestConection.Test192" executed="True" result="Success" success="True" time="2.022" asserts="0" />
+                  <test-case name="TestConection.Test127" executed="True" result="Success" success="True" time="2.040" asserts="0" />
+                  <test-case name="TestConection2.TestConection2" executed="True" result="Success" success="True" time="4.017" asserts="0" />
+                  <test-case name="TestConection2.TestConection2" executed="True" result="Success" success="True" time="4.035" asserts="0" />
+                  <test-case name="TestConection3.TestEchoOut,UDP" executed="True" result="Failure" success="False" time="3.056" asserts="0" >
                     <failure>
                       <message>
                         <![CDATA[ Condition is False when True expected. [] ]]>
@@ -55,27 +53,38 @@
                       </stack-trace>
                     </failure>
                   </test-case>
+                  <test-case name="TestConection3.TestEchoOut TCP" executed="True" result="Success" success="True" time="4.150" asserts="0" />
+                  <test-case name="TestConection4.TestIsconectedt" executed="True" result="Success" success="True" time="3.026" asserts="0" />
                 </results>
               </test-suite>
           </results>
         </test-suite>
-        <test-suite type="Namespace" name="TconmanagertestU" executed="true" result="Success" success="True" time="51.428" asserts="0" >
+        <test-suite type="Namespace" name="TestConSpeed" executed="true" result="Success" success="True" time="0.006" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="TConManagerTest" executed="True" result="Success" success="True" time="51.428" >
+              <test-suite type="Fixture" name="TesconSpeed" executed="True" result="Success" success="True" time="0.006" >
                 <results>
-                  <test-case name="TestConection0.TestConection0" executed="True" result="Success" success="True" time="2.041" asserts="0" />
-                  <test-case name="TestConection0.TestConection0" executed="True" result="Success" success="True" time="2.018" asserts="0" />
                   <test-case name="Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                  <test-case name="Test2.Test0" executed="True" result="Success" success="True" time="1.017" asserts="0" />
-                  <test-case name="Test2.Test192" executed="True" result="Success" success="True" time="1.016" asserts="0" />
-                  <test-case name="Test2.Test127" executed="True" result="Success" success="True" time="1.012" asserts="0" />
-                  <test-case name="TestConection.Test192" executed="True" result="Success" success="True" time="2.028" asserts="0" />
-                  <test-case name="TestConection.Test127" executed="True" result="Success" success="True" time="2.044" asserts="0" />
-                  <test-case name="TestConection2.TestConection2" executed="True" result="Success" success="True" time="4.037" asserts="0" />
-                  <test-case name="TestConection2.TestConection2" executed="True" result="Success" success="True" time="4.061" asserts="0" />
-                  <test-case name="TestConection3.TestEchoOut,UDP" executed="True" result="Success" success="True" time="4.116" asserts="0" />
-                  <test-case name="TestConection3.TestEchoOut TCP" executed="True" result="Success" success="True" time="4.287" asserts="0" />
-                  <test-case name="TestConection4.TestIsconectedt" executed="True" result="Success" success="True" time="3.047" asserts="0" />
+                  <test-case name="Test2.TestA" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Test2.TestB" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+        <test-suite type="Namespace" name="TworkThreadTestU" executed="true" result="Failure" success="False" time="12.782" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TWorkThreadTest" executed="True" result="Failure" success="False" time="12.782" >
+                <results>
+                  <test-case name="TestEchoserver" executed="True" result="Success" success="True" time="0.534" asserts="0" />
+                  <test-case name="TestConectionRemoteReal.TestEchoOutRemoteReal" executed="True" result="Failure" success="False" time="12.252" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Condition is False when True expected. [] ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
                 </results>
               </test-suite>
           </results>

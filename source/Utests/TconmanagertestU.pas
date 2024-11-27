@@ -4,6 +4,8 @@ interface
 
 uses
   DUnitX.TestFramework,ConManager,sysutils,blcksock,windows;// DUnitX.Loggers.GUIX;
+const
+  selfIP='192.168.1.35' ;
 
 type
   [TestFixture]
@@ -16,9 +18,9 @@ type
     // Sample Methods
     // Simple single Test
     [Test]
-    [TestCase('TestConection0','192.168.0.2,22134,UDP')]
-    [TestCase('TestConection0','192.168.0.2,22124,UDP')]
-    //[TestCase('TestConection0','192.168.0.2,22134,TCP')]
+    [TestCase('TestConection0',selfIP+',22134,UDP')]
+    [TestCase('TestConection0',selfIP+',22124,UDP')]
+    //[TestCase('TestConection0',selfIP+',22134,TCP')]
     procedure TestConection0(const ip,port : string;tipo:CMConType);
 
     [Test]
@@ -26,29 +28,29 @@ type
     // Test with TestCase Attribute to supply parameters.
     [Test]
     [TestCase('Test0','0.0.0.0,22134,UDP')]
-    [TestCase('Test192','192.168.0.2,22134')]
+    [TestCase('Test192',selfIP+',22134')]
     [TestCase('Test127','127.0.0.1,22134')]
     //[TestCase('Testchungo','24.0.8.0,22134')]
     procedure Test2(const ip,port : string;tipo:CMConType);
 
     [Test]
     //[TestCase('Test0','0.0.0.0,22134')]
-    [TestCase('Test192','192.168.0.2,22134,UDP')]
+    [TestCase('Test192',selfIP+',22134,UDP')]
     [TestCase('Test127','127.0.0.1,22134,TCP')]
     procedure TestConection(const ip,port : string;tipo:CMConType);
 
     [Test]
-    [TestCase('TestConection2','192.168.0.2,22134,UDP')]
-    [TestCase('TestConection2','192.168.0.2,22134,TCP')]
+    [TestCase('TestConection2',selfIP+',22134,UDP')]
+    [TestCase('TestConection2',selfIP+',22134,TCP')]
     procedure TestConection2(const ip,port : string;tipo:CMConType);
 
     [Test]
-    [TestCase('TestEchoOut,UDP','192.168.0.2,22134,UDP')]
-    [TestCase('TestEchoOut TCP','192.168.0.2,22134,TCP')]
+    [TestCase('TestEchoOut,UDP',selfIP+',22134,UDP')]
+    [TestCase('TestEchoOut TCP',selfIP+',22134,TCP')]
     procedure TestConection3(const ip,port : string;tipo:CMConType);
 
     [Test]
-    [TestCase('TestIsconectedt','192.168.0.2,22134')]
+    [TestCase('TestIsconectedt',selfIP+',22134')]
     procedure TestConection4(const ip,port : string;tipo:CMConType);
 
   end;

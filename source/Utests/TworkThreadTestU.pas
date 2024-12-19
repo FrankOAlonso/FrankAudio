@@ -25,7 +25,8 @@ type
     //[TestCase('TestEchoOut','480,5000,192.168.0.2,22124,TCP')]
     procedure TestConectionRemote(const V1 : Integer;const V2 : Integer;const ip,port : string; tipo:CMConType);
 
-    [TestCase('TestEchoOutRemoteReal','256,5000,82.223.2.110,3040,UDP')]
+    //[TestCase('TestEchoOutRemoteReal','256,5000,82.223.2.110,3040,UDP')]
+    [TestCase('TestEchoOutRemoteReal','256,5000,10.0.0.1,3040,UDP')]
  //   [TestCase('TestEchoOutRemote','128,5000,192.168.0.11,22134,TCP')]
     procedure TestConectionRemoteReal(const V1 : Integer;const V2 : Integer;const ip,port : string; tipo:CMConType);
 

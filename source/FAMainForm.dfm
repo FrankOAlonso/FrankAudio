@@ -14,7 +14,7 @@ object FAmainF: TFAmainF
   Font.Style = []
   OnCreate = FormCreate
   OnDestroy = FormDestroy
-  TextHeight = 13
+  TextHeight = 14
   object Lb_Drivername: TLabel
     Left = 54
     Top = 8
@@ -46,8 +46,8 @@ object FAmainF: TFAmainF
   object LbFreq: TLabel
     Left = 7
     Top = 320
-    Width = 50
-    Height = 13
+    Width = 52
+    Height = 14
     Caption = 'Frequency'
   end
   object Label3: TLabel
@@ -145,9 +145,9 @@ object FAmainF: TFAmainF
   object Label2: TLabel
     Left = 367
     Top = 103
-    Width = 90
+    Width = 74
     Height = 22
-    Caption = 'Protocolo'
+    Caption = 'Protoloco'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -18
